@@ -32,7 +32,7 @@ public class GenerateController {
         }
         if(type == 2){
             generateService.generService(dataBaseBean,projectBean,serviceBean);
-            return Result.ok("sevice生成成功");
+            return Result.ok("service生成成功");
         }
         if(type == 3){
             generateService.generController(dataBaseBean,projectBean,controllerBean);

@@ -1,0 +1,382 @@
+2020-03-10 01:41:30 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:44:17 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:44:32 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:44:52 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:47:08 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:47:36 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:48:39 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:51:29 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:53:49 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:55:50 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:59:05 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 01:59:23 ERROR restartedMain org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.hibernate.jpa.boot.internal.PersistenceUnitInfoDescriptor.getValidationMode(PersistenceUnitInfoDescriptor.java:88)
+
+The following method did not exist:
+
+    javax.persistence.spi.PersistenceUnitInfo.getValidationMode()Ljavax/persistence/ValidationMode;
+
+The method's class, javax.persistence.spi.PersistenceUnitInfo, is available from the following locations:
+
+    jar:file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+    jar:file:/E:/maven_repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/spi/PersistenceUnitInfo.class
+
+It was loaded from the following location:
+
+    file:/E:/maven_repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.persistence.spi.PersistenceUnitInfo
+
+2020-03-10 15:32:24 ERROR main cn.edu.ahtcm.codegenerator.service.impl.GenerateServiceImpl H:\study\web-base\code-generator\src\main\java\cn\edu\ahtcm\codegenerator\test\mapper\UserMapper.java_Template not found for name "japMapper.ftl".
+The name was interpreted by this TemplateLoader: FileTemplateLoader(baseDir="H:\study\web-base\src\main\resources\templates", canonicalBasePath="H:\study\web-base\src\main\resources\templates\").
+freemarker.template.TemplateNotFoundException: Template not found for name "japMapper.ftl".
+The name was interpreted by this TemplateLoader: FileTemplateLoader(baseDir="H:\study\web-base\src\main\resources\templates", canonicalBasePath="H:\study\web-base\src\main\resources\templates\").
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2797)
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2599)
+	at cn.edu.ahtcm.codegenerator.service.impl.GenerateServiceImpl.gneTemplateFile(GenerateServiceImpl.java:177)
+	at cn.edu.ahtcm.codegenerator.service.impl.GenerateServiceImpl.generJpaMapper(GenerateServiceImpl.java:162)
+	at cn.edu.ahtcm.codegenerator.service.impl.GenerateServiceImpl.generModelorMapper(GenerateServiceImpl.java:140)
+	at cn.edu.ahtcm.codegenerator.CodeGeneratorApplicationTests.generJpaMapper(CodeGeneratorApplicationTests.java:54)
+	at cn.edu.ahtcm.codegenerator.CodeGeneratorApplicationTests.main(CodeGeneratorApplicationTests.java:59)
+2020-03-10 15:33:42 ERROR main cn.edu.ahtcm.codegenerator.service.impl.GenerateServiceImpl H:\study\web-base\code-generator\src\main\java\cn\edu\ahtcm\codegenerator\test\mapper\UserMapper.java_Template not found for name "japMapper.ftl".
+The name was interpreted by this TemplateLoader: FileTemplateLoader(baseDir="H:\study\web-base\code-generator\src\main\resources\templates", canonicalBasePath="H:\study\web-base\code-generator\src\main\resources\templates\").
+freemarker.template.TemplateNotFoundException: Template not found for name "japMapper.ftl".
+The name was interpreted by this TemplateLoader: FileTemplateLoader(baseDir="H:\study\web-base\code-generator\src\main\resources\templates", canonicalBasePath="H:\study\web-base\code-generator\src\main\resources\templates\").
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2797)
+	at freemarker.template.Configuration.getTemplate(Configuration.java:2599)
+	at cn.edu.ahtcm.codegenerator.service.impl.GenerateServiceImpl.gneTemplateFile(GenerateServiceImpl.java:177)
+	at cn.edu.ahtcm.codegenerator.service.impl.GenerateServiceImpl.generJpaMapper(GenerateServiceImpl.java:162)
+	at cn.edu.ahtcm.codegenerator.service.impl.GenerateServiceImpl.generModelorMapper(GenerateServiceImpl.java:140)
+	at cn.edu.ahtcm.codegenerator.CodeGeneratorApplicationTests.generJpaMapper(CodeGeneratorApplicationTests.java:54)
+	at cn.edu.ahtcm.codegenerator.CodeGeneratorApplicationTests.main(CodeGeneratorApplicationTests.java:59)

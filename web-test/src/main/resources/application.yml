@@ -1,0 +1,28 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: web-test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/web_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    # jpa配置
+    jpa:
+      database: MySQL
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+  # redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    timeout: 1000
+
+tk:
+  mybatis:
+    basePackage: cn.edu.ahtcm.**.*.dao

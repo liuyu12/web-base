@@ -356,16 +356,7 @@ public class GenerateServiceImpl implements GenerateService {
      */
     private freemarker.template.Configuration getConfiguration(){
         freemarker.template.Configuration cfg = new freemarker.template.Configuration(freemarker.template.Configuration.VERSION_2_3_23);
-        try {
-            File file = new File(System.getProperty("user.dir") + "/code-generator/src/main/resources/templates");
-            if(!file.exists()){
-                 file = new File(System.getProperty("user.dir") + "/src/main/resources/templates");
-            }
-            cfg.setDirectoryForTemplateLoading(file);
-        } catch (IOException e) {
-            log.error(e.getMessage(),e);
-            throw new ServiceException("模板文件不存在");
-        }
+        cfg.setClassLoaderForTemplateLoading(this.getClass().getClassLoader(),"templates");
         cfg.setDefaultEncoding("UTF-8");
         cfg.setTemplateExceptionHandler(TemplateExceptionHandler.IGNORE_HANDLER);
         return cfg;

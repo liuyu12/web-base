@@ -14,6 +14,8 @@ public class DataBaseBean {
     @NotBlank
     private String password;
     @NotBlank
+    private String dbType;
+    @NotBlank
     private String url;
     @NotBlank
     private String tables;

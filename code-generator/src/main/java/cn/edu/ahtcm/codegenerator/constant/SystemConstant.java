@@ -13,4 +13,5 @@ public class SystemConstant {
     public static final int MAPPER_JPA = 1;
     public static final int MAPPER_TKMYBATIS = 2;
     public static final int MAPPER_NORMAL = 3;
+    public static final String DBTYPE_MYSQL = "mysql";
 }

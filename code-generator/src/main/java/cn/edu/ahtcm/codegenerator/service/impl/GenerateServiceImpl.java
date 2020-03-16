@@ -190,10 +190,12 @@ public class GenerateServiceImpl implements GenerateService {
 
         // 设置数据库连接
         JDBCConnectionConfiguration jdbcConnectionConfiguration = new JDBCConnectionConfiguration();
-        jdbcConnectionConfiguration.setDriverClass("com.mysql.cj.jdbc.Driver");
+        if(SystemConstant.DBTYPE_MYSQL.equals(dataBaseBean.getDbType())){
+            jdbcConnectionConfiguration.setDriverClass("com.mysql.cj.jdbc.Driver");
+            jdbcConnectionConfiguration.setConnectionURL(dataBaseBean.getUrl() + "?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true");
+        }
         jdbcConnectionConfiguration.setUserId(dataBaseBean.getUserId());
         jdbcConnectionConfiguration.setPassword(dataBaseBean.getPassword());
-        jdbcConnectionConfiguration.setConnectionURL(dataBaseBean.getUrl() + "?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true");
         context.setJdbcConnectionConfiguration(jdbcConnectionConfiguration);
 
         // 实体类生成配置
@@ -246,7 +248,7 @@ public class GenerateServiceImpl implements GenerateService {
             entityName = StringUtil.tableNameConvertUpperCamel(table);
             // 设置表别名
             if(dataBaseBean.isAlias()){
-                Preconditions.checkNotNull(dataBaseBean.getAliasName(),"表别名不为空");
+                Preconditions.checkArgument(!Strings.isNullOrEmpty(dataBaseBean.getAliasName()),"表别名不能为空");
                 entityName = dataBaseBean.getAliasName();
             }
             tableConfiguration.setDomainObjectName(StringUtil.tableNameConvertUpperCamel(entityName));
@@ -256,6 +258,7 @@ public class GenerateServiceImpl implements GenerateService {
                 generator.generate(null);
             }catch (Exception e){
                 log.error("实体类" + entityName +"和" + entityName + "Mapper生成失败_" + e.getMessage(),e);
+                throw new ServiceException(e.getMessage());
             }
             // 生成接口，在实体类之后生成,保存了主键信息
             if(type == SystemConstant.TYPE_MAPPER || type == SystemConstant.TYPE_BOTH){
